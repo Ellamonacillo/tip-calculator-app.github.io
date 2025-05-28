@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+
+    /* Colors */
+    --color-background: #c5e4e7;
+    --color-green400: hsl(172, 67%, 45%);
+
+    --color-green900: hsl(183, 100%, 15%);
+    --color-grey500: hsl(186, 14%, 43%);
+    --color-grey400: hsl(184, 14%, 56%);
+    --color-grey200: hsl(185, 41%, 84%);
+    --color-grey50: hsl(189, 47%, 97%);
+
+    /* Font Family */
+    --font-space: "Space Mono";
+}
+
+.field {
+    @apply bg-grey50 rounded-lg flex py-3 px-5;
+}
+.field input{
+    @apply w-full text-right text-xl text-green900 font-extrabold focus:outline-none;
+}
+.first label {
+    @apply text-grey500 font-semibold text-lg;
+}
+.input-focused {
+    @apply border-2 border-green400;
+}
+.tip input[type="button"] {
+    @apply bg-green900 rounded text-2xl py-2 px-5 font-semibold hover:bg-green400 hover:text-green900;
+}
+.tip input[type="text"] {
+    @apply bg-grey50 rounded py-2 px-5 text-right text-green900 text-2xl font-extrabold focus:outline-none focus:border-2 focus:border-green400;
+}
+.tip input[type="button"].selected {
+    @apply bg-green400 text-green900;
+}
+#reset:disabled{
+    @apply bg-teal-700 text-teal-800 opacity-50;
+}
