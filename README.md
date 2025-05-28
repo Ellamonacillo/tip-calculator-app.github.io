@@ -20,8 +20,8 @@ Tip Calculator App
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-tip-calculator-app-KvU3KkzH-W)
+- Live Site URL: [Github Pages](https://ellamonacillo.github.io/tip-calculator-app.github.io/)
 
 ## My Process
 
